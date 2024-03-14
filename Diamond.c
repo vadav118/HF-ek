@@ -14,6 +14,7 @@ int main(){
             }
             printf("\n");
         }
+        
         for(int i=num-2;i>=1;i-=2){
             for(int j=num;j>i;j-=2){
                 printf(" ");
@@ -26,6 +27,7 @@ int main(){
     }
     else{
         printf("Nem páratlan vagy pozitív számot adott meg!");
+        return 1;
     }
     
 
