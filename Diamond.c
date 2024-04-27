@@ -26,7 +26,7 @@ int main(){
         }
     }
     else{
-        printf("Nem páratlan vagy pozitív számot adott meg!");
+        printf("Nem páratlan vagy pozitív számot adott meg!\n");
         return 1;
     }
     
